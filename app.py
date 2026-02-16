@@ -7,6 +7,10 @@ import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 import hashlib
+import sys
+import streamlit as st
+st.write(sys.version)
+
 from dl_crypto import load_models 
 encryptor,decryptor = load_models()
 
