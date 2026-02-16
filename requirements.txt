@@ -1,6 +1,9 @@
 streamlit==1.32.2
+Pillow==10.2.0
 numpy==1.26.4
-pandas==2.2.2
-pillow==10.3.0
-plotly==5.22.0
-torch==2.1.2
+pandas==2.2.1
+
+torch==2.2.1
+torchvision==0.17.1
+
+plotly==5.19.0
